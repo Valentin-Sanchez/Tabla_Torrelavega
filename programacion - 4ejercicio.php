@@ -1,10 +1,10 @@
 
 Se quiere construir un depósito abierto de base cuadrada y paredes verticales con capacidad para 13.5 m3. Para ello se dispone de una chapa de acero de grosor uniforme. Calcula las dimensiones del depósito para que el gasto en chapa sea el mínimo posible<div>
 <form>
-<input id="lado1" name="lado1" placeholder="lado1" onkeyup="calcular()"/>
-<input id="lado2" name="lado2" placeholder="lado2" onkeyup="calcular()"/>
-<input id="altura" name="altura" placeholder="altura" onkeyup="calcular()"/>
-<button onclick="calcular()"> Calcular </button>
+<input id="lado1" name="lado1" placeholder="lado1" onkeyup="calcular3()"/>
+<input id="lado2" name="lado2" placeholder="lado2" onkeyup="calcular3()"/>
+<input id="altura" name="altura" placeholder="altura" onkeyup="calcular3()"/>
+<button onclick="calcular3()"> Calcular </button>
 </form>
 </div>
 
@@ -18,7 +18,7 @@ Se quiere construir un depósito abierto de base cuadrada y paredes verticales c
 
 console.log('area del prisma');
 
-function calcular(){
+function calcula3(){
 
 lado1=parseFloat(document.getElementById('lado1').value);
 
