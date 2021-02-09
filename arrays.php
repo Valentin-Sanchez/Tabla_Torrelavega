@@ -12,4 +12,15 @@ for ($i=0; $i<=10; $i++)
 print_r($tabla);
 	
 ?>
+
 </pre>
+
+<script>
+
+tabla = ["i"];
+
+for (i=0; i<=10; i++)
+
+	tabla[i]= i**2;
+
+</script>
